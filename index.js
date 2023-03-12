@@ -65,9 +65,10 @@ fetch('https://638cc70fd2fc4a058a5fbbdc.mockapi.io/s', options)
 
 let quienes_somos = document.getElementById('somos');
 
-let texto_quienessomos =`<p class="textoquienessomos" data-aos="fade-up"
-    data-aos-anchor-placement="center-bottom">Una pareja emprendedora que su meta es dar el mejor servicio en limpieza,
+let texto_quienessomos =`<p class="textoquienessomos" data-aos="flip-left">
+    Una pareja emprendedora que su meta es dar el mejor servicio en limpieza,
     lavanderia e incluso carpinteria. Estamos comprometidos con nuestro trabajo y dar el mejor servicio, por lo que en 2022 
-    decidimos crear N&J LavadoExpress. </p>`;
+    decidimos crear N&J LavadoExpress.
+    </p>`;
 
 quienes_somos.innerHTML = texto_quienessomos;
