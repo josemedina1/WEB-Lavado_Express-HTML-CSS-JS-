@@ -1,0 +1,255 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.menu{
+    position: fixed;
+    background-color: #5555d600;
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    width: 10%;
+}
+
+.logoicono{
+    height: 4em;
+}
+
+.direcciones{
+    width: 100%;
+    display: flex;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.enlace{
+    text-decoration:none;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    -webkit-text-stroke: 0.5px black;
+    color: #010101;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.enlace:hover{
+    background-color: #0f6ec1;
+    color: #f1eeee;
+}
+
+
+.enlace::before {
+    margin-left: auto;
+    background: #f1eeee;
+}
+
+.enlace::after, .enlace::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f1eeee;
+    display: block;
+    transition: 0.5s;
+}
+
+.enlace:hover::after, .enlace:hover::before {
+    width: 100%;
+    background: #f1eeee;
+}
+
+p{
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+small{
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(35, 35, 35);
+    font-size: 80px;
+}
+
+h2{
+    font-size: 80px;
+    color: aliceblue;
+}
+
+h3{
+    color: aliceblue;
+}
+h4{
+    color: rgb(28, 27, 27);
+    font-size: 30px;
+}
+
+.septop{
+    height:8vh;
+}
+
+.containerportada{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    padding: 10px;
+}
+
+.infoportada{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.cuadroimgportada{
+    height: 100%;
+    width: 100%;
+}
+
+.imgportada{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.cel{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios{
+    display: flex;
+}
+
+.pys{
+    width: 80%;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-top: 100px solid #428bca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.servi{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.cuadroservicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.serviimg{
+    height: 40vh;
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgservi{
+    height:90%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.dato{
+    height: 50%;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_pagina{
+    height: 50px;
+    background-color: #428bca;
+    border-radius: 5%;
+    color: #f0f0f0;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+.titulo_quienes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t_somos{
+    color: #010101;
+}
+
+.fotoquienes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fotonyj{
+    border: 1px double rgb(46, 46, 46);
+    border-radius: 3%;
+}
+
+.desc_somos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #0f6ec169;     
+}
+
+
+footer{
+    height: 18vh;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-around;
+}
+
+i{
+    color: aliceblue;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-whatsapp{
+    padding: 5px;
+    margin: 5px;
+}
