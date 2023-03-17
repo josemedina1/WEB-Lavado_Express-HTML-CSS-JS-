@@ -179,6 +179,13 @@ h4{
     
 }
 
+.desc_serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .botones{
     display: flex;
     justify-content: space-around;
@@ -191,9 +198,6 @@ h4{
     color: #f0f0f0;
     font-family: 'Kanit', sans-serif;
 }
-
-
-
 
 .titulo_quienes{
     display: flex;
@@ -223,8 +227,6 @@ h4{
     justify-content: center;
     margin: 10px;
     padding: 10px;
-    border-radius: 30px;
-    background-color: #0f6ec169;     
 }
 
 
@@ -257,12 +259,19 @@ i{
         background-color: #428bca;
     }
 
+    .direcciones{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .enlace{
         font-size: 10px
     }
 
     .containerportada{
-        height: 70vh;
+        height: 60vh;
+        width: 95vw;
         background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/03/estos-son-productos-limpieza-nunca-debes-mezclar-producen-nubes-toxicas-liquidos-irritantes-explosiones-2642933.jpg);
         border-radius: 10%;
         display: flex;
@@ -314,7 +323,11 @@ i{
 
     .cuadroservicio{
         height: 80%;
-        width: 100%;
+        width: 80%;
+        border: 0.3px solid rgb(29, 29, 29);
+        border-radius: 10%;
+        padding: 5px;
+        margin: 4px;
     }
 
     .serviimg{
@@ -330,5 +343,19 @@ i{
         border-radius: 50px;
         display: flex;
         flex-direction:column ;
+    }
+
+    .t_somos{
+        font-size: 43px;
+    }
+
+    .fotoquienes{
+        flex-direction: column;
+    }
+
+    .fotonyj{
+        border-radius: 50%;
+        height: 250px;
+        width: 280px;
     }
 }
