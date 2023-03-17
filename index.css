@@ -270,9 +270,9 @@ i{
     }
 
     .containerportada{
-        height: 50vh;
+        height: 40vh;
         width: 95vw;
-        background-image: url(https://revistacitylife.com/wp-content/uploads/2018/03/limpia-casa.jpg);
+        background-image: url(https://img.freepik.com/vector-gratis/herramientas-limpieza-primavera_24908-56564.jpg?w=360);
         border-radius: 10%;
         display: flex;
         align-items: center;
@@ -284,7 +284,8 @@ i{
     }
 
     .infoportada{
-        height: 60%;
+        height: 90%;
+        width: 100%;
         background-color: #0000006e;
         border-radius: 10%;
     }
