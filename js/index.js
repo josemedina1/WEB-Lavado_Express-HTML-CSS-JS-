@@ -19,7 +19,7 @@ $(document).ready(function () {
             $('.enlace').css({'color': '#010101'});
         }
 
-        if(this.window.pageYOffset >= 600){
+        if(this.window.pageYOffset >= 200){
             $('.imgservi').fadeIn();
 
         }else{
